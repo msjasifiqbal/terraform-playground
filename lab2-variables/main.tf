@@ -14,6 +14,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rgcreate" {
-  name     = "AsifRG-TF"
+  name     = variable
   location = "East US"
 }
